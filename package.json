@@ -19,5 +19,10 @@
     "argon2": "^0.41.1",
     "dotenv": "^16.4.7"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/yetiman45/encrypt-helper/issues"
+  },
+  "homepage": "https://github.com/yetiman45/encrypt-helper#readme"
+
 }

@@ -1,0 +1,23 @@
+{
+  "name": "encrypt-helper",
+  "version": "1.0.9",
+  "description": "A utility package for encryption, decryption, and hashing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "mv .env ../../ && mv test.js ../../ "
+  },
+  "keywords": [
+    "encryption",
+    "decryption",
+    "security",
+    "argon2"
+  ],
+  "author": "Dipin Niroula <dipinniroula@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {}
+}
